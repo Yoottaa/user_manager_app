@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: Colors.black,
         appBarTheme: const AppBarTheme(backgroundColor: Colors.black),
-        cardTheme: const CardTheme(color: Color(0xFF121212)),
+        cardTheme: const CardThemeData(color: Color(0xFF121212)),
       ),
       home: const UserListScreen(),
     );
@@ -399,3 +399,4 @@ class _UserListScreenState extends State<UserListScreen> {
     );
   }
 }
+
